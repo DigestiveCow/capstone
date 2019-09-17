@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.header {
+    width: 100%;
+    height: 64px;
+    display: block;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+}
+
+.colmar {
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    padding: 10px;
+}
+
+
+.logo {
+    height: 50px;
+    float: left;
+    padding-left: 24px;
+    padding-top: 10px;
+  }
+
+  .navigation {
+    float: right;
+    height: 100%;
+    margin: auto 24px auto auto;
+  }
+  
+  .navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 16px;
+    text-decoration: none;
+  }
+  
+  .navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: black;
+  }
